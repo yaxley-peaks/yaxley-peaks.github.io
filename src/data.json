@@ -2,11 +2,15 @@
   "button": {
     "1": "Begin!",
     "2": "\uD83D\uDE33️",
-    "3": "No >w<",
+    "5": "No >w<",
     "10": "Go Away!!",
     "15": "\uD83D\uDE16️"
   },
   "greeting": {
-    "1": "Welcome to my Page"
+    "1": "Click Below to Begin!",
+    "2" : "Never mind, I'd rather you not begin \n(⁄ ⁄•⁄ω⁄•⁄ ⁄)\n",
+    "5" : "I promise, there is nothing to see!",
+    "10": "Just Leave!! \n..・ヾ(。＞＜)シ\n",
+    "15": "Please "
   }
 }
