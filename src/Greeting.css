@@ -15,3 +15,7 @@ h2 {
 #leave {
     font-family: 'Montserrat', serif;
 }
+
+#crossed {
+    text-decoration: line-through;
+}

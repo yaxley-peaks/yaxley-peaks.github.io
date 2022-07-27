@@ -17,12 +17,25 @@ export default function Greeting(props: Props) {
     } else {
         // @ts-ignore
         msg = data.greeting[`${count}`] ?? msg;
-        return (
-            <div>
-                <h1>Welcome to my page.</h1>
-                <h2>{msg}</h2>
-            </div>
-        );
+        if (count >= 15)
+            return (
+                <div>
+                    <h1>
+                    ███████ to my page.
+                    </h1>
+                    <h2>{msg}</h2>
+                </div>
+            );
+        else
+            return (
+                <div>
+                    <h1>
+                        <span id={count >= 4 ? "crossed" : ""}
+                        >Welcome</span> to my page.
+                    </h1>
+                    <h2>{msg}</h2>
+                </div>
+            );
     }
 
 }
