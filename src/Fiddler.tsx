@@ -1,14 +1,19 @@
 import React from "react";
 import "./Fiddler.css";
-import { useState } from "react";
-import { MobileProps } from "./PropInterfaces";
+import {useState} from "react";
+import {Props} from "./PropInterfaces";
+import  data from "./data.json";
 
-export default function Fiddler(props: MobileProps) {
+
+let msg = "Begin!"
+export default function Fiddler(props: Props) {
+
     const [style, setStyle] = useState({
         position: "absolute",
         top: "50%",
         left: "50%"
     });
+    const [count, setCount] = props.count!; //<-- ! is the not null assertion.
     const mouseOverHandler = (
         e: React.MouseEvent<HTMLButtonElement, MouseEvent>
     ) => {
@@ -21,7 +26,8 @@ export default function Fiddler(props: MobileProps) {
                 left: Math.random() * 90 + 5 + "%"
             }
         });
-
+        setCount(count + 1);
+        console.log(count);
     };
 
     if (props.isMobile) {
@@ -31,9 +37,12 @@ export default function Fiddler(props: MobileProps) {
             </button>
         );
     } else {
-        return (<button className="fiddler" id="enabled" style={style as React.CSSProperties} onMouseOver={mouseOverHandler}>
-            Begin!
-        </button>
-        );
+        // let _count: string = count + "";
+        // @ts-ignore
+        msg = data.button[`${count}`] ?? msg;
+
+        return <button className="fiddler" id="enabled" style={style as React.CSSProperties}
+                       onMouseOver={mouseOverHandler}>{msg}</button>;
+
     }
 }

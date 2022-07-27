@@ -1,3 +1,6 @@
-export interface MobileProps {
-    isMobile: boolean
+import React from "react";
+
+export interface Props {
+    isMobile: boolean,
+    count? : [number, React.Dispatch<React.SetStateAction<number>>]
 }

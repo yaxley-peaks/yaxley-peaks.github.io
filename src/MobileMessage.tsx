@@ -1,8 +1,8 @@
 import React from "react";
-import { MobileProps } from "./PropInterfaces";
+import { Props } from "./PropInterfaces";
 import "./MobileMessage.css";
 
-export default function MobileMessage(props: MobileProps) {
+export default function MobileMessage(props: Props) {
     if (props.isMobile) {
         return (
         <>

@@ -1,9 +1,9 @@
 import React from "react"
 import "./Greeting.css"
-import { MobileProps } from "./PropInterfaces"
+import { Props } from "./PropInterfaces"
+import data from "./data.json"
 
-export default function Greeting(props: MobileProps) {
-
+export default function Greeting(props: Props) {
     if (props.isMobile) {
         return (
             <div>
