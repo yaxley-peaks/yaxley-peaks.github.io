@@ -1,7 +1,13 @@
 .fiddler {
-    position: absolute;
+    /* position: absolute; */
+    transform: translate(-50%, -50%);
     top: 0%;
     left: 0%;
     margin: 1rem;
     padding: 1rem;
+}
+
+#disabled {
+    background-color: white;
+    font-size: 5rem;
 }

@@ -2,6 +2,7 @@ import React from "react";
 import { createRoot } from "react-dom/client";
 import Fiddler from "./Fiddler";
 import Greeting from "./Greeting";
+import MobileMessage from "./MobileMessage";
 
 
 
@@ -12,6 +13,7 @@ let isMobileDevice = regexp.test(details);
 createRoot(document.getElementById('root') as Element).render(
     <>
         <Greeting isMobile={isMobileDevice} />
+        <MobileMessage isMobile={isMobileDevice} />
         <Fiddler isMobile={isMobileDevice} />
     </>
-)
+);
