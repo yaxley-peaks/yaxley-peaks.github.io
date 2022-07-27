@@ -1,5 +1,6 @@
 import React from "react";
 import { MobileProps } from "./PropInterfaces";
+import "./MobileMessage.css";
 
 export default function MobileMessage(props: MobileProps) {
     if (props.isMobile) {
@@ -11,6 +12,6 @@ export default function MobileMessage(props: MobileProps) {
         </>
         );
     } else {
-        return <></>
+        return <></>;
     }
 }

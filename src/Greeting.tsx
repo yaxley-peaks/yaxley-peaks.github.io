@@ -9,6 +9,7 @@ export default function Greeting(props: MobileProps) {
             <div>
                 <h1>Welcome to my page.</h1>
                 <h2 id="mobile">Click Below to Begin!</h2>
+                <h2 id="leave">GO AWAY!</h2>
             </div>
         );
     } else {
