@@ -5,9 +5,13 @@ import Greeting from "./Greeting";
 
 
 
+let details = navigator.userAgent;
+let regexp = /android|iphone|kindle|ipad/i;
+let isMobileDevice = regexp.test(details);
+
 createRoot(document.getElementById('root') as Element).render(
     <>
-    <Greeting />
-    <Fiddler />
+        <Greeting isMobile={isMobileDevice} />
+        <Fiddler isMobile={isMobileDevice} />
     </>
 )

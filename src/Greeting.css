@@ -1,5 +1,6 @@
 h1 {
     font-family: 'EB Garamond', serif;
+    text-align: center;
     /* text-align: center; */
     font-size: 4rem;
 }
@@ -7,4 +8,7 @@ h2 {
     font-family: 'Dancing Script', cursive;
     text-align: center;
     font-size: 2rem;
+}
+#mobile {
+    text-decoration: line-through;
 }

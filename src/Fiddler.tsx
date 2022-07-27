@@ -1,8 +1,9 @@
 import React from "react";
 import "./Fiddler.css";
 import { useState } from "react";
+import { MobileProps } from "./PropInterfaces";
 
-export default function Fiddler() {
+export default function Fiddler(props: MobileProps) {
     const [style, setStyle] = useState({
         top: "50%",
         left: "50%"
@@ -12,18 +13,26 @@ export default function Fiddler() {
         e: React.MouseEvent<HTMLButtonElement, MouseEvent>
     ) => {
         e.preventDefault();
-
-        setStyle({
-            ...{
-                top: Math.random() * 90 + "%",
-                left: Math.random() * 90 + "%"
-            }
-        });
-        console.log(style);
+        if (props.isMobile) {
+            setStyle({
+                ...{
+                    top: Math.random() * 90 + "%",
+                    left: Math.random() * 90 + "%"
+                }
+            });
+        }
     };
-    return (
-        <button id="fiddler" style={style} onMouseOver={mouseOverHandler}>
+
+    if (props.isMobile) {
+        return (
+            <button disabled={true} className="fiddler" id="disabled" style={style} onMouseOver={mouseOverHandler}>
+                Begin!
+            </button>
+        );
+    } else {
+        return (<button className="fiddler" id="enabled" style={style} onMouseOver={mouseOverHandler}>
             Begin!
         </button>
-    );
+        );
+    }
 }
