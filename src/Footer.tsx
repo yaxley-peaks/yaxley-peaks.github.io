@@ -8,7 +8,7 @@ import './Footer.css'
 export default function Footer(props: Props) {
     return (
         <div id="container">
-            <p id="license">💀️</p>
+            {/* <p id="license">💀️</p> */}
             <p id="love">Made with <FontAwesomeIcon icon={faHeart} /> by
                 <a href="https://github.com/yaxley-peaks"> Yax </a>
                 on <a href="https://github.com/yaxley-peaks/yaxley-peaks.github.io/"><FontAwesomeIcon icon={faGithub} /></a>
