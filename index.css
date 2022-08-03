@@ -7,7 +7,9 @@ html {
 
 #root {
     display: grid;
+    grid-template-rows: [main] auto [foot] 4rem;
     justify-items: center;
+    
     background: #ee9ca7;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);
