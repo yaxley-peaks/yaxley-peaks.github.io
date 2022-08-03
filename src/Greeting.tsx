@@ -21,7 +21,7 @@ export default function Greeting(props: Props) {
             return (
                 <div>
                     <h1>
-                    ███████ to my page.
+                    ███████
                     </h1>
                     <h2>{msg}</h2>
                 </div>
@@ -31,7 +31,7 @@ export default function Greeting(props: Props) {
                 <div>
                     <h1>
                         <span id={count >= 4 ? "crossed" : ""}
-                        >Welcome</span> to my page.
+                        >Hello!</span>
                     </h1>
                     <h2>{msg}</h2>
                 </div>

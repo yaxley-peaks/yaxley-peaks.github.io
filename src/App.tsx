@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import Greeting from "./Greeting";
 import MobileMessage from "./MobileMessage";
 import Fiddler from "./Fiddler";
+import Footer from "./Footer";
 
 export default function App() {
     let details = navigator.userAgent;
@@ -14,5 +15,6 @@ export default function App() {
         <Greeting isMobile={isMobileDevice} count={count}/>
         <MobileMessage isMobile={isMobileDevice}/>
         <Fiddler isMobile={isMobileDevice} count={count}/>
+        <Footer isMobile={false} />
     </>;
 }

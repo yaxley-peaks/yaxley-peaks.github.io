@@ -1,17 +1,21 @@
 h1 {
-    font-family: 'EB Garamond', serif;
+    font-family: 'Leckerli One', cursive;
     text-align: center;
     /* text-align: center; */
     font-size: 4rem;
 }
+
 h2 {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Indie flower', cursive;
+    font-weight: 200;
     text-align: center;
     font-size: 2rem;
 }
+
 #mobile {
     text-decoration: line-through;
 }
+
 #leave {
     font-family: 'Montserrat', serif;
 }
