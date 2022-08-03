@@ -13,7 +13,7 @@ export default function App() {
 
     return <>
         <Greeting isMobile={isMobileDevice} count={count}/>
-        <MobileMessage isMobile={isMobileDevice}/>
+        {/* <MobileMessage isMobile={isMobileDevice}/> */}
         <Fiddler isMobile={isMobileDevice} count={count}/>
         <Footer isMobile={false} />
     </>;

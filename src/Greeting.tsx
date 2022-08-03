@@ -9,8 +9,8 @@ export default function Greeting(props: Props) {
     if (props.isMobile) {
         return (
             <div>
-                <h1>Welcome to my page.</h1>
-                <h2 id="mobile">{msg}</h2>
+                <h1 id="mobile">Hello!</h1>
+                <h2>You are on a mobile device. This is not supported.</h2>
                 <h2 id="leave">GO AWAY!</h2>
             </div>
         );
@@ -21,7 +21,7 @@ export default function Greeting(props: Props) {
             return (
                 <div>
                     <h1>
-                    ███████
+                        ████
                     </h1>
                     <h2>{msg}</h2>
                 </div>
