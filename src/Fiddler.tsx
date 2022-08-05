@@ -43,7 +43,6 @@ export default function Fiddler(props: Props) {
             </button>
         );
     } else {
-        // let _count: string = count + "";
         // @ts-ignore
         msg = data.button[`${count}`] ?? msg;
 
