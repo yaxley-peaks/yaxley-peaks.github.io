@@ -5,6 +5,7 @@ import {Props} from "./PropInterfaces";
 import  data from "./data.json";
 
 
+
 let msg = "Begin!"
 export default function Fiddler(props: Props) {
 
@@ -27,8 +28,13 @@ export default function Fiddler(props: Props) {
             }
         });
         setCount(count + 1);
-        console.log(count);
+        console.log(count)
     };
+
+    const clickHandler = (e: React.MouseEvent<HTMLButtonElement>) => {
+        e.preventDefault();
+        window.location.href = './hehe.html'
+    }
 
     if (props.isMobile) {
         return (
@@ -42,7 +48,7 @@ export default function Fiddler(props: Props) {
         msg = data.button[`${count}`] ?? msg;
 
         return <button className="fiddler" id="enabled" style={style as React.CSSProperties}
-                       onMouseOver={mouseOverHandler}>{msg}</button>;
+                       onMouseOver={mouseOverHandler} onClick={clickHandler}>{msg}</button>;
 
     }
 }
