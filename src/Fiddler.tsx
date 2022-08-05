@@ -28,7 +28,6 @@ export default function Fiddler(props: Props) {
             }
         });
         setCount(count + 1);
-        console.log(count)
     };
 
     const clickHandler = (e: React.MouseEvent<HTMLButtonElement>) => {
