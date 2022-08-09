@@ -5,7 +5,9 @@
     left: 0%;
     margin: 1rem;
     padding: 2rem;
-    word-wrap: break-word;
+    word-break: keep-all;
+    text-overflow: clip;
+    white-space: nowrap;
 }
 
 #enabled {
