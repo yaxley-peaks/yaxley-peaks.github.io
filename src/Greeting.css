@@ -24,3 +24,8 @@ h2 {
 #crossed {
     text-decoration: line-through;
 }
+
+#give_up {
+    padding: 1rem;
+    margin: 1rem;
+}

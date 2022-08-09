@@ -5,6 +5,7 @@
     left: 0%;
     margin: 1rem;
     padding: 2rem;
+    word-wrap: break-word;
 }
 
 #enabled {

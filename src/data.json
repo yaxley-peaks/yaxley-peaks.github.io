@@ -4,13 +4,27 @@
     "2": "\uD83D\uDE33️",
     "5": "No >w<",
     "10": "Go Away!!",
-    "15": "\uD83D\uDE16️"
+    "15": "\uD83D\uDE16️",
+    "25": "(⁄ ⁄•⁄ω⁄•⁄ ⁄)",
+    "50": "😠️",
+    "60": "🙄️",
+    "100": "42",
+    "110": "🤦‍♂️️",
+    "150": "😥️",
+    "160": "😅️"
   },
   "greeting": {
     "1": "Click Below to Begin!",
-    "2" : "Never mind, I'd rather you not begin \n(⁄ ⁄•⁄ω⁄•⁄ ⁄)\n",
-    "5" : "I promise, there is nothing to see!",
+    "2": "Never mind, I'd rather you not begin \n(⁄ ⁄•⁄ω⁄•⁄ ⁄)\n",
+    "5": "I promise, there is nothing to see!",
     "10": "Just Leave!! \n..・ヾ(。＞＜)シ\n",
-    "15": "Please leave!!!"
+    "15": "Please leave!!!",
+    "20": "Please there is nothing of note inside!",
+    "50": "Well maybe if you really wanted to get in you would have found a way by now.",
+    "60": "Keep trying then lol",
+    "100": "okok the answer to what you want and everything else is: ",
+    "110": "*sigh*",
+    "150": "Not gonna give up so easily then, huh",
+    "160": "Well, don't stop NOW!"
   }
 }
