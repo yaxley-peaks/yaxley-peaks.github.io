@@ -18,18 +18,20 @@
         </head>
         <body>
           <div id="header">{{ title }}</div>
+          <div id="grid-wrapper">
+            <div id="toc">
+              <ul>
+                <li>
+                  <a href="./index.html">Main page</a>
+                </li>
+                <li>lmao</li>
+              </ul>
+            </div>
 
-          <div id="toc">
-            <ul>
-              <li>lol this is item number one there will be many such items here hopefully</li>
-              <li>lmao</li>
-            </ul>
+            <div id="main-content">
+              {{ content }}
+            </div>
           </div>
-
-          <div id="main-content">
-            {{ content }}
-          </div>
-
 
         </body>
       </html>

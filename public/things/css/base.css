@@ -17,11 +17,14 @@ body {
 
     font-family: 'Atkinson Hyperlegible', sans-serif;
     font-size: 1.1rem;
+
 }
 
 #main-content {
-    margin-left: 25vw;
-    margin-right: 25vw;
+    /* margin-left: 25vw;
+    margin-right: 25vw; */
+    grid-column: 25 / 75;
+    grid-row: 1 / 1;
 }
 
 pre {
@@ -51,9 +54,15 @@ pre {
 }
 
 #toc {
+    display: inline;
     text-align: justify;
-    float: right;
-    margin-right: 15vw;
     margin-top: 15vh;
     color: #928374;
+    grid-column: 75 / 95;
+    grid-row: 1 / 1;
 }   
+
+#grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(100, 1fr);
+}
