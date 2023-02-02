@@ -1,3 +1,47 @@
 h1 {
-    color: blue;
+    /* color: blue; */
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    /* Gruvbox themes.
+    https://github.com/morhetz/gruvbox
+     */
+    background-color: #fbf1c7;
+    color: #3c3836;
+
+    margin-left: 25vw;
+    margin-right: 25vw;
+
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-size: 1.1rem;
+}
+
+pre {
+    font-family: 'Fira Code', monospace;
+    border: 1px #3c3836 solid;
+    border-radius: 1em;
+    padding: 1.3em;
+    background-color: #d5c4a1;
+    display: inline-block;
+}
+
+#header {
+    color: #7c6f64;
+    width: 100%;
+    text-align: center;
+    margin-top: 0.5em;
+    font-size: 3em;
+    font-family: 'Cherry Swash', cursive;
+    font-weight: bold;
+}
+
+::selection {
+    background: #3c3836;
+    color: #ebdbb2;
 }
