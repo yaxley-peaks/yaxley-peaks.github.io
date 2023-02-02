@@ -6,7 +6,7 @@ count: 1
 # Hello!
 ### You finally made it here.
 
-Here is where I post things I feel like posting about. Maybe you will find these interesting too.
+Here is where I post things I feel like posting about. Maybe you will find these interesting too. This is also where I post when `head full, many thoughts`.
 
 #### About me:
 - Github: 

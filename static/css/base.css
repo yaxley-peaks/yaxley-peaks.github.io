@@ -15,11 +15,13 @@ body {
     background-color: #fbf1c7;
     color: #3c3836;
 
-    margin-left: 25vw;
-    margin-right: 25vw;
-
     font-family: 'Atkinson Hyperlegible', sans-serif;
     font-size: 1.1rem;
+}
+
+#main-content {
+    margin-left: 25vw;
+    margin-right: 25vw;
 }
 
 pre {
@@ -27,6 +29,8 @@ pre {
     border: 1px #3c3836 solid;
     border-radius: 1em;
     padding: 1.3em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
     background-color: #d5c4a1;
     display: inline-block;
 }
@@ -45,3 +49,11 @@ pre {
     background: #3c3836;
     color: #ebdbb2;
 }
+
+#toc {
+    text-align: justify;
+    float: right;
+    margin-right: 15vw;
+    margin-top: 15vh;
+    color: #928374;
+}   
