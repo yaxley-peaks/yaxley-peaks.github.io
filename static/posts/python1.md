@@ -16,3 +16,14 @@ a = b := c
 are not allowed because uh uh uh _readability_.
 
 IMO, consistency is way more important than **readability** because that feels so much more, well, consistent. ~~lol~~
+
+### Here is what I propose
+
+Simply make `:=` return the left hand side argument. Nothing else. Literally that simple.
+
+I, ~~in my infinite generosity~~, provide an implementation below:
+```py
+def __walrus__(self, other):
+    self.value = other
+    return self.value
+```
