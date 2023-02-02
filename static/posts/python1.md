@@ -45,3 +45,5 @@ x = (y := random.random())
 would give x and y different values. Will `x` be a pointer to the `random.random` function so that `x()` would be possible or `x` gets the function call result was the thing that led me to completely give up and just stick to returning LHS values.
 
 But nothing I can do so I have to live with these annoyances.
+
+(I'll add more examples when I can rememeber them)
