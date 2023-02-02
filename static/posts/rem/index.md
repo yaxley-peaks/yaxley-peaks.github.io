@@ -3,9 +3,13 @@ layout: base.liquid
 tags: post
 ptitle: "Rem ❤️"
 title: "Rem ❤️"
-img:
+imgs:
     - rem1.png
+    - rem2.png
+    - rem3.png
+    - rem4.png
 ---
 # Here is my collection of good rem pfps
-
-![]({{img[0]}})
+{% for img in imgs %}
+![]({{img}})
+{% endfor %}
