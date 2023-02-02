@@ -13,7 +13,7 @@ Here is where I post things I feel like posting about. Maybe you will find these
 - Github: 
     - [Funnies](https://github.com/yaxley-peaks)
 - [Bird app](https://twitter.com/yaxley_peaks)
-- [PGP key](./_assets/yaxley-peaks-082024.asc) (valid until August 2024):
+- PGP key (valid until August 2024):
     ```
     -----BEGIN PGP PUBLIC KEY BLOCK-----
 
