@@ -9,6 +9,7 @@ imgs:
     - rem3.png
     - rem4.png
 ---
+2/2/2023
 # Here is my collection of good rem pfps
 {% for img in imgs %}
 ![]({{img}})

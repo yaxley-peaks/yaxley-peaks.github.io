@@ -4,7 +4,7 @@ tags: post
 ptitle: "Python #1"
 title: "Python #1"
 ---
-
+2/2/2023
 # Python walrus operator is so annoying
 
 I get that it's not meant to be used for funny golfing reasons but please why won't it work when it seems like it should. I have spent many many hours breaking my head over this.
