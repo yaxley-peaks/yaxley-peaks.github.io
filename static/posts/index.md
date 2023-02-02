@@ -1,6 +1,5 @@
 ---
 layout: base.liquid
-count: 1
 tags: post
 ptitle: Main page
 ---
