@@ -1,5 +1,9 @@
 ---
     title: An Interesting title
+    # tags: post
+    files:
+      - python1
+      - python2
 ---
       <!DOCTYPE html>
       <html lang="en">
@@ -14,17 +18,18 @@
           <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Cherry+Swash&family=Fira+Code&family=Poppins&display=swap" rel="stylesheet">
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
           <link rel="stylesheet" href="./css/base.css">
-          <title>{{ title }}</title>
+          <title>{{ ptitle }}</title>
         </head>
         <body>
           <div id="header">{{ title }}</div>
           <div id="grid-wrapper">
             <div id="toc">
               <ul>
-                <li>
-                  <a href="./index.html">Main page</a>
-                </li>
-                <li>lmao</li>
+                {% for post in collections.post %}
+                  <li>
+                    <a href="{{post.data.outputPath}}">{{ post.data.ptitle }}</a>
+                  </li>
+                {% endfor %}
               </ul>
             </div>
 
