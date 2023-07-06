@@ -46,7 +46,7 @@ export default function Fiddler(props: Props) {
         msg = data.button[`${count}`] ?? msg;
 
         return <button className="fiddler" id="enabled" style={style as React.CSSProperties}
-                       onMouseOver={mouseOverHandler} onClick={clickHandler}>{msg}</button>;
+                       onMouseOver={mouseOverHandler} onClick={clickHandler}><a href = "./posts">{msg}</a></button>;
 
     }
 }

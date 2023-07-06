@@ -10,7 +10,7 @@ ptitle: Main page
 Here is where I post things I feel like posting about. Maybe you will find these interesting too. This is also where I post when `head full, many thoughts`.
 
 ### About me:
-- Github: 
+- Github:
     - [Funnies](https://github.com/yaxley-peaks)
 - [Bird app](https://twitter.com/yaxley_peaks)
 - PGP key (valid until August 2024):
@@ -48,3 +48,5 @@ Here is where I post things I feel like posting about. Maybe you will find these
 
     -----END PGP PUBLIC KEY BLOCK-----
     ```
+
+### Built with [11ty](https://www.11ty.dev/). Color scheme from [gruvbox](https://github.com/morhetz/gruvbox)
