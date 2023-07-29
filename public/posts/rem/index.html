@@ -60,9 +60,10 @@
       }
 
       #toc {
+        /*        padding: 3em; */
+        margin: 15vh 3em 3em;
         display: inline;
         text-align: justify;
-        margin-top: 15vh;
         color: #928374;
         grid-column: 75 / 95;
         grid-row: 1 / 1;
@@ -73,8 +74,12 @@
       }
 
       #grid-wrapper {
-        display: grid;
-        grid-template-columns: repeat(100, 1fr);
+        display: flex;
+        flex-direction: row-reverse;
+      }
+
+      img {
+        max-width: 100%;
       }
     </style>
     <title>Rem ❤️</title>
@@ -115,6 +120,10 @@
           
             <li>
               <a href="/posts/vile_js/">Vile Js</a>
+            </li>
+          
+            <li>
+              <a href="/posts/tg/">The TGMC Timeline</a>
             </li>
           
         </ul>
