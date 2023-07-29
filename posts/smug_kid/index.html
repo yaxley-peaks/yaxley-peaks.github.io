@@ -29,19 +29,25 @@
       }
 
       #main-content {
-        /* margin-left: 25vw;
-    margin-right: 25vw; */
-        grid-column: 25 / 75;
-        grid-row: 1 / 1;
+        font-size: 1.5em;
+        text-align: justify;
+        margin-left: 10vw;
+        max-width: 53vw;
+      }
+
+      h1 {
+        /* default size */
+        font-size: 2em !important;
       }
 
       pre {
+        width: max-content;
         font-family: 'Fira Code', monospace;
         border: 1px #3c3836 solid;
         border-radius: 1em;
         padding: 1.3em 1.5em;
         background-color: #d5c4a1;
-        display: inline-block;
+        display: block;
       }
 
       #header {
@@ -60,12 +66,11 @@
       }
 
       #toc {
+        min-width: 15vw;
         display: inline;
         text-align: justify;
         margin-top: 15vh;
         color: #928374;
-        grid-column: 75 / 95;
-        grid-row: 1 / 1;
       }
 
       a {
@@ -73,8 +78,13 @@
       }
 
       #grid-wrapper {
-        display: grid;
-        grid-template-columns: repeat(100, 1fr);
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+      }
+
+      img {
+        max-width: 100%;
       }
     </style>
     <title>Smug kid</title>
@@ -90,7 +100,7 @@
             </li>
           
             <li>
-              <a href="/posts/python1/">Python #1</a>
+              <a href="/posts/python1/">Python: Walrus operator </a>
             </li>
           
             <li>
@@ -115,6 +125,10 @@
           
             <li>
               <a href="/posts/vile_js/">Vile Js</a>
+            </li>
+          
+            <li>
+              <a href="/posts/tg/">The TGMC Timeline</a>
             </li>
           
         </ul>
