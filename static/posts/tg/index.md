@@ -8,5 +8,6 @@ title: "The TGMC Timeline"
 # The TGMC timeline
 Hosted here, with permission from famskiis, for future reference and so that I don't lose it.
 ![We were never toxic](tgmc-timeline-sml-01.png)
+Open image in new tab for high quality version.
 
 I had fun playing on there, I guess.
