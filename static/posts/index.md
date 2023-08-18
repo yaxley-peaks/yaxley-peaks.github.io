@@ -1,7 +1,8 @@
 ---
 layout: base.liquid
 tags: post
-ptitle: Main page
+ptitle: An Archive of My Own
+title: An Archive of My Own
 ---
 
 # Hello!
