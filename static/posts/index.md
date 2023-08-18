@@ -1,6 +1,7 @@
 ---
 layout: base.liquid
 tags: post
+ptitle: Main Page
 ---
 
 # Hello!
