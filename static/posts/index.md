@@ -9,6 +9,9 @@ ptitle: Main page
 
 Here is where I post things I feel like posting about. Maybe you will find these interesting too. This is also where I post when `head full, many thoughts`.
 
+### Some other stuff I have no place to put
+- <https://yaxley.in/most-used>
+
 ### About me:
 - Github:
     - [Funnies](https://github.com/yaxley-peaks)
