@@ -4,6 +4,8 @@ tags: post
 ptitle: Main Page
 ---
 
+<p><a href="http://www.anybrowser.org/campaign/"><img src="startup.gif" alt="Viewable With Any Browser" /></a></p>
+
 # Hello!
 ### You finally made it here.
 
