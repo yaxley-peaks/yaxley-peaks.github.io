@@ -18,7 +18,7 @@ Here is where I post things I feel like posting about. Maybe you will find these
 ### About me:
 - Github:
     - [Funnies](https://github.com/yaxley-peaks)
-- [Bird app](https://twitter.com/yaxley_peaks)
+- [~~Bird~~ app](https://twitter.com/yaxley_peaks)
 - PGP key (valid until August 2024):
     ```
     -----BEGIN PGP PUBLIC KEY BLOCK-----
