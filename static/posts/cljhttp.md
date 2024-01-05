@@ -7,7 +7,7 @@ title: "A rant about making HTTP requests in clojure (and an appreciation of how
 
 4/1/2024
 
-# Making a simple Http get request in clojure is way too verbose. 
+# Making a simple Http get request in clojure is way too verbose.
 Below is an example:
 
 ```clojure
