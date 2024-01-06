@@ -24,7 +24,7 @@ Below is an example:
           (println "Response: " response)
           response)
         (println "Request Failed with code: " response-code)))))
-(make-get-request "https://reqres.in/api/users/2")
+(make-get-request "https://hit-me.yaxley.in/")
 ```
 
 I guess this is why it is one the [higher paying languages out there](https://survey.stackoverflow.co/2023/#section-top-paying-technologies-top-paying-technologies).
@@ -41,7 +41,7 @@ This is how it is done in racket btw:
 (define (make-get-request url)
   (let ([response (get-pure-port (string->url url))])
         (port->string response)))
-(make-get-request "https://reqres.in/api/users/2")
+(make-get-request "https://hit-me.yaxley.in/")
 ```
 This is amazing. This is elegant. This is how **ALL** languages should do it (imo).
 
