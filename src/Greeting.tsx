@@ -16,7 +16,9 @@ export default function Greeting(props: Props) {
     return (
       <div>
         <h1 id="mobile">Hello!</h1>
-        <h2>You are on a mobile device. This is not supported.</h2>
+        <h2>
+          You are on a mobile device, or a touch screen. This is not supported.
+        </h2>
         <h2 id="leave">GO AWAY!</h2>
       </div>
     );
