@@ -29,7 +29,7 @@ export default function Fiddler(props: Props) {
 
   const clickHandler = (e: React.MouseEvent<HTMLButtonElement>) => {
     e.preventDefault();
-    window.location.href = "./posts";
+    window.location.href = "https://blog.yaxley.in";
   };
 
   if (props.isMobile) {
