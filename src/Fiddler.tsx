@@ -35,6 +35,7 @@ export default function Fiddler(props: Props) {
   if (props.isMobile) {
     return (
       <button
+        tabIndex={-1}
         disabled={true}
         className="fiddler"
         id="disabled"
@@ -49,13 +50,16 @@ export default function Fiddler(props: Props) {
 
     return (
       <button
+        tabIndex={-1}
         className="fiddler"
         id="enabled"
         style={style as React.CSSProperties}
         onMouseOver={mouseOverHandler}
         onClick={clickHandler}
       >
-        <a href="./posts">{msg}</a>
+        <a href="./posts" tabIndex={-1}>
+          {msg}
+        </a>
       </button>
     );
   }
